@@ -1,4 +1,4 @@
-import blog from "https://deno.land/x/blog@0.4.2/blog.tsx";
+import blog, { ga } from "https://deno.land/x/blog@0.4.2/blog.tsx";
 
 blog({
   title: "FE News 周刊",
@@ -11,5 +11,10 @@ blog({
   ],
   favicon: "./goal.png",
   middlewares: [
+    ga("G-TJWE3KPNCT"),
+    // redirects({
+    //   "iocp-links.html": "iocp_links",
+    //   "rant.html": "rant",
+    // }),
   ],
 });

@@ -1,13 +1,11 @@
-![](../posts/screenshot.png)
+![](../cover.png)
 
-# Ryan's Blog
-
-Deployments in less than 10 seconds.
+# FE News 周刊
 
 To get it running:
 
 ```sh
-git clone git@github.com:ry/tinyclouds.git blog
+git clone https://github.com/rottenpen/fe_news blog
 cd blog
 deno task dev
 ```
