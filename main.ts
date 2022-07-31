@@ -1,4 +1,4 @@
-import blog, { ga } from "https://deno.land/x/blog@0.3.3/blog.tsx";
+import blog from "https://deno.land/x/blog@0.3.3/blog.tsx";
 
 blog({
   title: "FE News 周刊",
