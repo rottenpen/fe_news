@@ -11,10 +11,6 @@ blog({
   ],
   favicon: "./goal.png",
   middlewares: [
-    ga("G-TJWE3KPNCT"),
-    // redirects({
-    //   "iocp-links.html": "iocp_links",
-    //   "rant.html": "rant",
-    // }),
+    ga("G-TJWE3KPNCT")
   ],
 });
